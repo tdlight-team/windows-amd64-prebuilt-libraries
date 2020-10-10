@@ -1,0 +1,31 @@
+Package: openssl-windows
+Version: 1.1.1g
+Port-Version: 1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c016b97aa234769e177078f78d5fe17e0eccc172
+Description: OpenSSL is an open source project that provides a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.
+Type: Port
+Status: install ok installed
+
+Package: openssl
+Version: 1.1.1g
+Port-Version: 1
+Depends: openssl-windows
+Architecture: x64-windows
+Multi-Arch: same
+Abi: ab4def31d371c017ebc8fe541da8c3c4f62ead13
+Description: OpenSSL is an open source project that provides a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.
+Type: Port
+Status: install ok installed
+
+Package: zlib
+Version: 1.2.11
+Port-Version: 9
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 41694068328acdf979d22ece62b0177fffcaa5f3
+Description: A compression library
+Type: Port
+Status: install ok installed
+
