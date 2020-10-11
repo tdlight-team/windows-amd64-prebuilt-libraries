@@ -1,0 +1,5 @@
+x64-windows-static/
+x64-windows-static/share/
+x64-windows-static/share/openssl/
+x64-windows-static/share/openssl/usage
+x64-windows-static/share/openssl/vcpkg_abi_info.txt
